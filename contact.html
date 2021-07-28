@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">vikass technical</a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- contact us secction start -->
+
+    <section class="main_heading my-5 pt-5">
+        <div class="text-center">
+            <h1 class="display-4">contact us</h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1"
+                                placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter Email">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label>Gender</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Male</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleDataList" class="form-label text-capitalize">
+                                select city
+                            </label>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Type to search...">
+                            <datalist id="datalistOptions">
+                                <option value="Mumbai"></option>
+                                <option value="delhi"></option>
+                                <option value="Gorkhpur"></option>
+                                <option value="banaras"></option>
+                                <option value="kushinagar"></option>
+                            </datalist>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">input file name</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact us secction start -->
+
+    <footer class="bg-secondary text-center text-white">
+        <p>@copyright vikas</p>
+    </footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

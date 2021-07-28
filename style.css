@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Bona Nova', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.about_img{
+    min-width: 100%;
+    max-height: 280px;
+}
+.service-image{
+    width: 100%;
+    height:100%;
+}
+h1{
+    text-transform: uppercase;
+}
+
+.offer_style{
+    background: cadetblue;
+    
+}
+footer{
+    margin-bottom: 0;
+}
+
+/* responsive css code */
+
+ /* // Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) { 
+    ... }
+
+/* // Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) {
+     ... } 
+
+/* // Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { 
+    ... }
+
+/* // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+     ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) 
+@media (min-width: 1400px) { 
+    ... }
